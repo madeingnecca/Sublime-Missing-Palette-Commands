@@ -111,5 +111,7 @@
     { "caption": "Preferences: Syntax Specific – User", "command": "open_file_settings" },
     { "caption": "Font: Increase Font Size", "command": "increase_font_size" },
     { "caption": "Font: Decrease Font Size", "command": "decrease_font_size" },
-    { "caption": "Font: Reset Font Size", "command": "reset_font_size" }
+    { "caption": "Font: Reset Font Size", "command": "reset_font_size" },
+
+    { "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Open Containing Folder…" }
 ]
